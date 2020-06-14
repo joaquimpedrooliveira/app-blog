@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "servico_wordpress" {
-  source                = "git::https://github.com/joaquimpedrooliveira/infra-modulo-app-php.git?ref=v0.1.0"
+  source                = "git::https://github.com/joaquimpedrooliveira/infra-modulo-app-php.git?ref=v0.2.0"
 
   project_name          = "blog"
 
