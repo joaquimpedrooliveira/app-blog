@@ -9,7 +9,7 @@ module "servico_wordpress" {
 
   db_name               = "wordpress_db"
   db_user               = "wordpress_user"
-  db_password           = "12345"  # No mundo real, deve estar externalizado
+  db_password           = "stupid_pass"  # No mundo real, deve estar externalizado
   db_instance_type      = "t2.micro"
 
   app_instance_type     = "t2.micro"
